@@ -4,7 +4,7 @@ https://kunalpanchal.in
 
 
 
-## Blogs 📝
+### Blogs 📝
 - [React India 2019 Summarized](https://dev.to/kay_2695px/react-india-2019-1goa)
 - [Does typescript any harm?](https://codeburst.io/does-any-harm-typescript-c811ad3b00e8)
 - [Dope VS code extensions for a Javascript Developer](https://medium.com/hackernoon/dope-vs-code-extensions-for-a-javascript-developer-7981625f4c4a)
