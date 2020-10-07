@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+img {
+    width: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #9400d3;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Code', monospace;
+    height: 100vh;
+    line-height: 1.8;
+    overflow-y: hidden;
+}
+
+table {
+    border-spacing: 10px;
+    width: 100%
+}
+
+button {
+    font-size: 16px;
+    background: transparent;
+    padding: 2px 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px;
+    border: 1px solid black;
+}
+
+button:hover {
+    background: #c6c6c6;
+}
+
+hr {
+    margin-top: -1px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.content {
+    flex: 3;
+    padding: 20px;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.twitter-feed {
+    width: 30%;
+    overflow-y: scroll;
+    max-height: 100vh;
+    /* border-left: 2px solid black; */
+}
+
+@media only screen and (max-width: 1000px) {
+    @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+    body {
+        line-height: 1.2;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    li {
+        margin: 10px 0px;
+    }
+    button {
+        margin: 10px 5px;
+    }
+    .twitter-feed {
+        display: none;
+    }
+}
