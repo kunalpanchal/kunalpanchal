@@ -43,7 +43,12 @@
         function initFreshChat() {
             window.fcWidget.init({
                 token: "344f09f6-af34-43eb-a8cf-804bdb8cd434",
-                host: "https://wchat.freshchat.com"
+                host: "https://wchat.freshchat.com",
+                config: {
+                    headerProperty: {
+                        direction: 'ltr'
+                    }
+                }
             });
         }
 
