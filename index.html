@@ -18,7 +18,7 @@
     <meta property="og:url" content="https://kunalpanchal.in">
     <meta property="og:title" content="Kunal">
     <meta property="og:description"
-        content="A seasoned full stack software engineer and a JS ninja, crafting tech solutions for various problems.">
+        content="A seasoned senior software engineer, crafting tech solutions for various problems.">
     <meta property="og:image" content="https://kunalpanchal.in/imgs/favicons/og-image.png">
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
@@ -61,126 +61,40 @@
                             href="mailto:hello@kunalpanchal.in">hello@kunalpanchal.in</a></p>
                 </div>
 
-                <div>
-                    <button onclick="window.location.href = 'http://github.kunalpanchal.in';">GitHub</button>
-                    <button onclick="window.location.href = 'http://twitter.kunalpanchal.in';">Twitter</button>
-                    <button onclick="window.location.href = 'http://l.kunalpanchal.in';">Linkedin</button>
-                    <button onclick="window.location.href = 'http://dev.kunalpanchal.in';">Dev.to</button>
-                    <button onclick="window.location.href = 'http://so.kunalpanchal.in';">Stack Overflow</button>
-                </div>
+                <div id="links"></div>
             </div>
 
             <div id="work" class="section">
                 <h3>Work 💼</h3>
-                
+
                 <h4>Work timelines</h4>
-                <ul>
-                    <li><a href="https://www.deliveryhero.com/">Spotify</a> : October 2022
-                        - Present</li>
-                    <li><a href="https://www.deliveryhero.com/">Delivery Hero</a> : February 2020
-                        - September 2022</li>
-                    <li><a href="https://www.upgrad.com/">upGrad.com</a> : March 2019 - February
-                        2020</li>
-                    <li><a href="https://www.terriblytinytales.com/">TerriblyTinyTales.com</a> : 
-                        December 2017 - March 2019</li>
-                    <li><a href="https://www.outgrow.co/">Outgrow.co</a> : August 2016 - December
-                        2017</li>
-                </ul>
+                <ul id="work-timeline"></ul>
+
                 <h4>Projects</h4>
-                <ul>
-                    <li><a href="https://sitaby.netlify.app">SitAby</a> - A IoT based posture proctor. <span
-                            style="color:#cc0000">Patent: 3648/DEL/2015</span>. Infymakers Award winner India.</li>
-                    <li><a href="https://terriblytinytales.com/app">Terribly Tiny Tales Social Network</a> - A
-                        full-fleged social network for writers.
-                        <a href="https://play.google.com/store/apps/details?id=com.terriblytinytales.ttt"><img
-                                src="imgs/playstore-icon.png" alt="" /></a>
-                        <a href="https://itunes.apple.com/in/app/terribly-tiny-tales/id1227454777?ls=1"><img
-                                src="imgs/appstore-icon.png" alt="" /></a>
-                    </li>
-<!--                     <li><a href="https://outgrow.co">Outgrow.co</a> - A New Marketing Toolkit. Interactive Calculators
-                        and Quizzes.</li>
-                    <li><a href="https://upgrad.com">upGrad.com</a> - Working on the marketing platform.</li> -->
-                    <li><a href="https://play.google.com/store/apps/details?id=com.kay.june.disguisedfilehider">Disguised
-                            Encrypter</a> - AES256 files encrypter for android, disguised as a calculator.<img
-                            src="imgs/playstore-icon.png" alt="" /></li>
-                    <li><a href="https://play.google.com/store/apps/details?id=gptw.cultureinshorts.in">Culture
-                            Inshorts</a> - is a series of short articles reader app.
-                        <a href="https://play.google.com/store/apps/details?id=gptw.cultureinshorts.in"><img
-                                src="imgs/playstore-icon.png" alt="" /></a>
-                        <a href="https://itunes.apple.com/in/app/culture-inshorts/id1419586346"><img
-                                src="imgs/appstore-icon.png" alt="" /></a>
-                    </li>
-                    <li><a href="https://play.google.com/store/apps/details?id=com.indiadesignid.app">India Design ID
-                            2019</a> - Country&rsquo;s best luxury design week, event application.
-                        <a href="https://play.google.com/store/apps/details?id=com.indiadesignid.app"><img
-                                src="imgs/playstore-icon.png" alt="" /></a>
-                        <a href="https://itunes.apple.com/in/app/india-design-id-2019/id1450007977"><img
-                                src="imgs/appstore-icon.png" alt="" /></a>
-                    </li>
-                    <li><a href="https://playthis.netlify.com/">Play This</a> - A PWA that lets you create a club and
-                        let people control your playlist.</li>
-                    <li><a href="https://play.google.com/store/apps/details?id=com.tictactoe.tictoe">Tic Toe</a> - Not a
-                        usual Tic Tac Toe game.
-                        <a href="https://play.google.com/store/apps/details?id=com.tictactoe.tictoe"><img
-                                src="imgs/playstore-icon.png" alt="" /></a>
-                        <a href="https://apps.apple.com/us/app/tic-toe/id1474668637"><img src="imgs/appstore-icon.png"
-                                alt="" /></a>
-                    </li>
-<!--                     <li><span>Onob</span> - A android app controlled IoT based knob to control your stove.</li> -->
-<!--                     <li><span>Terribly Tiny Tales Video Maker</span> - A convestation chat maker for TTT.</li> -->
-                </ul>
+                <ul id="projects"></ul>
 
-                <div>
-                    <h4>Open-source projects</h4>
-                    <ul>
-                        <li><a href="https://github.com/shaaijs">Shaai.js</a> - A pluggable blogging framework</li>
-                        <li><a href="https://github.com/kunalpanchal/secure-env">secure-env</a> - NPM that encrypts and
-                            protects your process.env</li>
-                        <li><a href="https://github.com/upgrad/react-image-gallery">react-s3-image-gallery</a> - A react
-                            gallery component with support for uploading images to S3</li>
-                        <li><a href="https://github.com/kunalpanchal/relevant-bookmarks">relevant-bookmarks</a> -
-                            A Chrome extension that gives you a list of relevant bookmarks specific to the URL you are
-                            in.</li>
-                        <li><span>Lanuks</span> - A customized linux distro for the PWAs of tomorrow (WIP)</li>
-                    </ul>
-                    <br><em style="color:#707070;font-size:14px;">Other open source scripts and WIP products are
-                        available on my <a href="https://github.com/kunalpanchal">GitHub</a>.</em>
-                </div>
-               
-
+                <h4>Open-source projects</h4>
+                <ul id="open-source-projects"></ul>
+                <br><em style="color:#707070;font-size:14px;">Other open source scripts and WIP products are available
+                    on my <a href="https://github.com/kunalpanchal">GitHub</a>.</em>
             </div>
 
-            <div id="blogs" class="section">
+            <div class="section">
                 <h3>Blogs 📝</h3>
-                <ul>
-                    <li><a href="https://dev.to/kay_2695px/react-india-2019-1goa">React India 2019 Summarized</a></li>
-                    <li><a href="https://codeburst.io/does-any-harm-typescript-c811ad3b00e8">Does typescript any
-                            harm?</a></li>
-                    <li><a
-                            href="https://medium.com/hackernoon/dope-vs-code-extensions-for-a-javascript-developer-7981625f4c4a">Dope
-                            VS code extensions for a Javascript Developer</a></li>
-                    <li><a href="https://codeburst.io/how-secure-is-your-environment-file-in-node-js-7c4d2ed0d15a">How
-                            secure is your environment file in Node.js</a></li>
-                </ul>
+                <ul id="blogs"></ul>
             </div>
 
-            <div id="blogs" class="section">
+            <div class="section">
                 <h3>Certifications 🐧</h3>
                 <!-- KCAD -->
-                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="434eaa0e-6f0b-42bb-bc61-a952bb450fdb" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-             </div>
-            
-            <div id="more-links" class="section">
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="434eaa0e-6f0b-42bb-bc61-a952bb450fdb"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            </div>
+
+            <div id="extended-links" class="section">
                 <h3>What else? 🔗</h3>
-                <button onclick="window.location.href = 'https://unsplash.com/@panchalkunal';">Unsplash</button>
-                <button onclick="window.location.href = 'https://www.instagram.com/the_hysteresis';">Instagram</button>
-                <button onclick="window.location.href = 'https://www.reddit.com/user/panchalkunal';">Reddit</button>
-                <button onclick="window.location.href = 'http://medium.com/@kunalpanchal';">Medium</button>
-                <button onclick="window.location.href = 'https://www.strava.com/athletes/48643619';">Starva</button>
-                <button onclick="window.location.href = 'https://www.youtube.com/c/KunalPanchal2695';">YouTube
-                    Channel</button>
-                <button
-                    onclick="window.location.href = 'https://open.spotify.com/user/fhkgexqcgefm05zipq1fa1fh0';">Spotify</button>
             </div>
             <br>
             <br>
@@ -189,10 +103,51 @@
     </div>
 
     <!-- Load all the JS here -->
-    <script>
+    <script type="module">
+        import { openSourceProjects, projects, workTimeline, blogs, links, extendedLinks } from './content.mjs';
         window.onload = function () {
+            for (let project of openSourceProjects) {
+                const li = document.createElement("li");
+                li.innerHTML = `<li>${project.link ? `<a href="${project.link}">` : ''}${project.title}</a> - ${project.explanation}</li>`
+                document.getElementById("open-source-projects").appendChild(li);
+            }
+
+            for (let project of projects) {
+                const li = document.createElement("li");
+                li.innerHTML = `<a href="${project.link}">${project.title}</a> - ${project.description}
+                        ${project.playstoreLink ? `<a href="${project.playstoreLink}"><img src="imgs/playstore-icon.png" alt="" /></a>` : ""}
+                        ${project.appStoreLink ? `<a href="${project.appStoreLink}"><img src="imgs/appstore-icon.png" alt="" /></a>` : ""}`
+                document.getElementById("projects").appendChild(li);
+            }
+
+            for (let work of workTimeline) {
+                const li = document.createElement("li");
+                li.innerHTML = `<a href="${work.link}">${work.company}</a> : ${work.timeline}`
+                document.getElementById("work-timeline").appendChild(li);
+            }
+
+            for (let blog of blogs) {
+                const li = document.createElement("li");
+                li.innerHTML = `<a href="${blog.link}">${blog.title}</a>`
+                document.getElementById("blogs").appendChild(li);
+            }
+
+            for (let link of links) {
+                const li = document.createElement("button");
+                li.onclick = () => window.open(link.link);
+                li.innerText = link.title;
+                document.getElementById("links").appendChild(li);
+            }
+
+            for (let link of extendedLinks) {
+                const li = document.createElement("button");
+                li.onclick = () => window.open(link.link);
+                li.innerText = link.title;
+                document.getElementById("extended-links").appendChild(li);
+            }
+
             var fieldExperience = document.getElementById('field-experience');
-            fieldExperience.innerText = Math.abs(new Date(Date.now() - new Date('8/1/2016')).getUTCFullYear() - 1970)
+            fieldExperience.innerText = Math.abs(new Date(Date.now() - new Date('8/1/2016')).getUTCFlilYear() - 1970)
         }
     </script>
 </body>
