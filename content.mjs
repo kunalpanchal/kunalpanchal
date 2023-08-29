@@ -17,7 +17,7 @@ const openSourceProjects = [
                     <!--                     <li><span>Terribly Tiny Tales Video Maker</span> - A convestation chat maker for TTT.</li> -->
 */
 const projects = [
-    { link: "https://sitaby.netlify.app", title: "SitAby", description: "A IoT based posture proctor. <span style=\"color:#cc0000\">Patent: 3648/DEL/2015</span>. Infymakers Award winner India." },
+    { link: "https://sitaby.netlify.app", title: "SitAby", description: "A IoT based posture proctor. <span class=\"highlight\" >Patent: 3648/DEL/2015</span>. Infymakers Award winner India." },
     { link: "https://terriblytinytales.com/app", title: "Terribly Tiny Tales Social Network", description: "A full-fleged social network for writers.", playstoreLink: "https://play.google.com/store/apps/details?id=com.terriblytinytales.ttt", appStoreLink: "https://itunes.apple.com/in/app/terribly-tiny-tales/id1227454777?ls=1" },
     { link: "https://play.google.com/store/apps/details?id=com.kay.june.disguisedfilehider", title: "Disguised Encrypter", description: "AES256 files encrypter for android, disguised as a calculator.", playstoreLink: "https://play.google.com/store/apps/details?id=com.kay.june.disguisedfilehider" },
     { link: "https://play.google.com/store/apps/details?id=gptw.cultureinshorts.in", title: "Culture Inshorts", description: "is a series of short articles reader app", playstoreLink: "https://play.google.com/store/apps/details?id=gptw.cultureinshorts.in", appStoreLink: "https://itunes.apple.com/in/app/culture-inshorts/id1419586346" },

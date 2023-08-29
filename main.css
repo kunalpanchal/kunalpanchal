@@ -41,6 +41,10 @@ table {
     width: 100%
 }
 
+.highlight {
+    color: #cc0000
+}
+
 button {
     font-size: 16px;
     background: transparent;
@@ -95,5 +99,30 @@ hr {
 
     .twitter-feed {
         display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    a {
+        color: #b4d273;
+    }
+
+    body {
+        background: #2e2e2e;
+        color: #d6d6d6;
+    }
+
+    button {
+        background: #d6d6d6;
+        box-shadow: 2px 2px;
+        border: 1px solid lightgrey;
+    }
+
+    button:hover {
+        background: #e5b567;
+    }
+
+    .highlight {
+        color: #6c99bb
     }
 }
