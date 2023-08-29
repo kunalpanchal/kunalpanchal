@@ -186,23 +186,11 @@
             <br>
         </div>
         <hr>
-        <div class="twitter-feed">
-            <a class="twitter-timeline" data-link-color="#9400d3"
-                href="https://twitter.com/kay_2695px?ref_src=twsrc%5Etfw">Tweets by kay_2695px</a>
-        </div>
     </div>
 
     <!-- Load all the JS here -->
     <script>
         window.onload = function () {
-            if (window.screen.width < 1000) return;
-            var script = document.createElement('script');
-            script.onload = function () {
-                console.log("Twitter script loaded");
-            };
-            script.src = "https://platform.twitter.com/widgets.js";
-            document.getElementsByTagName('head')[0].appendChild(script);
-
             var fieldExperience = document.getElementById('field-experience');
             fieldExperience.innerText = Math.abs(new Date(Date.now() - new Date('8/1/2016')).getUTCFullYear() - 1970)
         }
